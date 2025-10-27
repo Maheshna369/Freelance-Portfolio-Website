@@ -97,7 +97,7 @@ const Navbar = () => {
         id="home"
         className={`w-full h-20 flex justify-between items-center  ${
           scrolled
-            ? "bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900"
+            ? "bg-gradient-to-b from-white to-gray-50 dark:from-gray-950 dark:to-gray-900 rounded-b-3xl"
             : "bg-transparent"
         } text-gray-900 dark:text-white sticky top-0 z-50 `}
       >
