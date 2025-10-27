@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://maphy.vercel.app
+Host: https://maheshnayak.vercel.app
 
 # Sitemaps
-Sitemap: https://maphy.vercel.app/sitemap.xml
+Sitemap: https://maheshnayak.vercel.app/sitemap.xml
