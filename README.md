@@ -56,9 +56,8 @@ It’s not just a portfolio — it’s a **conversion-focused digital brand**, c
 
 ---
 
-### 🎨 Preview
-
-> `![Portfolio Preview](./preview.gif)`
+### 🎨 Preview  
+![Portfolio Preview](https://github.com/Maheshna369/freelance-portfolio-website/blob/main/src/assets/image.png)
 
 ---
 
