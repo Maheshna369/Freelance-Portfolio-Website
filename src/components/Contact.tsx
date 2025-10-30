@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
   };
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText("maheshnayak9639@gmail.com");
+      await navigator.clipboard.writeText("maheshnayak.dev@gmail.com");
       setCopyEmail(true);
       setTimeout(() => setCopyEmail(false), 2000);
     } catch (err) {
@@ -211,7 +211,7 @@ const Contact: React.FC = () => {
           {/* Email Section */}
           <div className="w-full relative bg-gradient-to-r from-white to-gray-50 dark:from-gray-800 dark:to-gray-900 border border-gray-200 dark:border-gray-700 rounded-2xl p-5 shadow-sm hover:shadow-lg transition-all duration-300">
             <a
-              href="mailto:maheshnayak9639@gmail.com"
+              href="mailto:maheshnayak.dev@gmail.com"
               // onClick={() => trackClick("Email")}
               className="flex items-center gap-3 text-gray-900 dark:text-gray-100 font-semibold hover:opacity-90"
             >
