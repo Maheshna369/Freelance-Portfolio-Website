@@ -10,7 +10,7 @@ const Services = () => {
       title: "I Build Custom Full-Stack Websites",
       description:
         "Fast, responsive, and optimized for conversions. Using MERN & Next.js, I create scalable web apps that grow your business.",
-      image: "/fiverr/fiverr-gig-thumbnail.png",
+      image: "/fiverr/fiverr-gig-thumnail.png",
       href: "https://www.fiverr.com/s/xXN9D14",
     },
     {
