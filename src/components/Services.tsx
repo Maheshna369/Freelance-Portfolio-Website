@@ -10,15 +10,8 @@ const Services = () => {
       title: "I Build Custom Full-Stack Websites",
       description:
         "Fast, responsive, and optimized for conversions. Using MERN & Next.js, I create scalable web apps that grow your business.",
-      image: "/fiverr/custom-website-gig.png",
-      href: "https://www.fiverr.com/s/gDKmjwA",
-    },
-    {
-      title: "Shopify Stores Optimized for SEO & Mobile",
-      description:
-        "I create SEO-friendly, mobile-optimized Shopify stores with fast loading speeds and custom designs, built to convert visitors into paying customers.",
-      image: "/fiverr/shopify-gig.png",
-      href: "https://www.fiverr.com/s/428GQDm",
+      image: "/fiverr/fiverr-gig-thumbnail.png",
+      href: "https://www.fiverr.com/s/xXN9D14",
     },
     {
       title: "WordPress Websites That Convert",

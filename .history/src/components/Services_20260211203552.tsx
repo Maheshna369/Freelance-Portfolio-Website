@@ -10,40 +10,40 @@ const Services = () => {
       title: "I Build Custom Full-Stack Websites",
       description:
         "Fast, responsive, and optimized for conversions. Using MERN & Next.js, I create scalable web apps that grow your business.",
-      image: "/fiverr/custom-website-gig.png",
-    },
-    {
-      title: "Shopify Stores Optimized for SEO & Mobile",
-      description:
-        "I create SEO-friendly, mobile-optimized Shopify stores with fast loading speeds and custom designs, built to convert visitors into paying customers.",
-      image: "/fiverr/shopify-gig.png",
+      image: "/fiverr/fiverr-gig-thumbnail.png",
+      href: "https://www.fiverr.com/s/xXN9D14",
     },
     {
       title: "WordPress Websites That Convert",
       description:
         "I build professional WordPress websites that are fast, responsive, and fully customizable for your business needs.",
       image: "/fiverr/custom-website-gig.png",
+      href: "/#contact",
     },
     {
       title: "Wix Websites Designed for Growth",
       description:
         "I create Wix websites that are visually stunning, fully responsive, and built to convert visitors into customers.",
       image: "/fiverr/custom-website-gig.png",
+      href: "/#contact",
     },
   ];
-
+  const fadeUp = {
+    hidden: { opacity: 0, y: 40 },
+    visible: { opacity: 1, y: 0 },
+  };
   return (
     <section
       id="services"
-      className="w-full pt-20 pb-8 flex flex-col justify-center items-stretch text-gray-900 dark:text-white"
+      className="w-full pt-20 pb-0 lg:pb-8 flex flex-col justify-center items-stretch text-gray-900 dark:text-white"
     >
       {/* Heading */}
-      <h2 className="w-full text-center text-3xl md:text-4xl font-bold mb-4">
+      <h2 className="w-full text-left lg:text-center text-3xl lg:text-5xl font-bold mb-4">
         I Build Websites That Actually Grow Your Business
       </h2>
 
       {/* Subheading */}
-      <p className="w-full text-center mb-12 text-lg px-4 md:px-20">
+      <p className="w-full text-left lg:text-center mb-6 lg:mb-12 text-lg md:px-20">
         Custom & Platform-Specific Websites using{" "}
         <strong>WordPress, Shopify, Webflow, Wix, MERN & Next.js</strong> —
         E-Commerce, Landing Pages & Blogs. Fast, Clean, and Built to{" "}
@@ -51,14 +51,14 @@ const Services = () => {
       </p>
 
       {/* Cards Grid */}
-      <div className="w-full flex flex-wrap justify-between items-center px-4">
+      <div className="w-full flex flex-wrap justify-between items-center ">
         {services.map((service, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-full sm:w-[45%] lg:w-[500px] lg:h-[500px]"
+            className="flex-shrink-0 w-full my-1 lg:my-5 sm:w-[45%] lg:w-[500px] lg:h-[500px]"
           >
-            <CardContainer className="w-full h-full flex justify-center py-4 m-4">
-              <CardBody className="bg-white  dark:bg-gray-800 w-full h-full p-5 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300">
+            <CardContainer className="w-full h-full flex justify-center py-2 lg:py-4">
+              <CardBody className="bg-white  dark:bg-gray-800 w-full h-full p-5  rounded-xl shadow-2xl hover:scale-105 transition-transform duration-300">
                 <CardItem className="font-semibold text-lg mb-2 text-gray-900 dark:text-white">
                   {service.title}
                 </CardItem>
@@ -76,13 +76,13 @@ const Services = () => {
                 </CardItem>
 
                 {/* CTA Buttons */}
-                <CardItem className="w-full flex flex-col sm:flex-row justify-between items-center mt-4 gap-3">
+                <CardItem className="w-full flex  flex-row justify-between items-center mt-4 gap-3">
                   <Link href="#contact">
                     <button className="w-full sm:flex-1 text-gray-900 dark:text-white py-3 rounded-lg transition-colors font-semibold">
                       Let’s Talk
                     </button>
                   </Link>
-                  <Link href="#contact">
+                  <Link href={service.href}>
                     <Button className="w-full sm:flex-1 py-3 rounded-lg  transition-colors font-semibold">
                       Buy Now
                     </Button>
