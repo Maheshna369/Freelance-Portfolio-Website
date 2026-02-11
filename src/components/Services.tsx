@@ -17,14 +17,14 @@ const Services = () => {
       title: "WordPress Websites That Convert",
       description:
         "I build professional WordPress websites that are fast, responsive, and fully customizable for your business needs.",
-      image: "/fiverr/custom-website-gig.png",
+      image: "/fiverr/wordpress-thumbnail.png",
       href: "/#contact",
     },
     {
       title: "Wix Websites Designed for Growth",
       description:
         "I create Wix websites that are visually stunning, fully responsive, and built to convert visitors into customers.",
-      image: "/fiverr/custom-website-gig.png",
+      image: "/fiverr/wix-thumbnail.png",
       href: "/#contact",
     },
   ];
